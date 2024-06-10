@@ -1,0 +1,92 @@
+*{
+  font-family: "Courier Prime", monospace;
+  block-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F5F5F5;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 50;
+}
+
+body {
+  margin-top: 80px;
+}
+p {
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+#banner {
+background-color: #AB739B;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#bg-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+#banner h2 {
+  font-size: 70px;
+  color: #381D2A;
+  z-index: 1;
+} /* insert different typeface here if u want*/
+
+#container {
+  display: grid;
+  grid-template-columns:
+    80% 20%;
+}
+#text {
+  padding: 30px;
+}
+
+nav {
+  background-color: #F5F5F5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav img {
+  margin: 20px 0px;
+  width: 100%;
+} 
+/* add image tags in html make them square
+<nav>
+<img src="imagename.jpg" alt="">
+</nav>
+</div> */
+
+
+ main {
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  color: #000;
+  width: 250px;
+  height: 250px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
